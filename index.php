@@ -7,7 +7,7 @@ require_once 'Unirest/Request.php';
 //
 $host = 'courant.com';
 //
-$apiKey = '7777fc99317eee064293f89cd14aa9a1';
+$apiKey = 'xxx';
 //
 $sections = ['news' => 'news,breaking-news,politics','sports' => 'sports','business' => 'business','entertainment' => 'entertainment'];
 //
@@ -50,7 +50,7 @@ foreach($collection as $key => $value){
  */
 function updateCollection($url,$data){
 
-	$P2Paccesstoken = "874ai9840kqvuyojkyqp4k49o6q56yyfa35";
+	$P2Paccesstoken = "xxx";
 
 	$headr = array();
 	$headr[] = 'Authorization: Bearer '. $P2Paccesstoken;
